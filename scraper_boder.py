@@ -2,8 +2,7 @@
 
 '''
 Anna Bonazzi, 26/06/2019
-
-# Script to scrape specific parts of a website using XPath
+# Script to scrape the transcripts of Boder's Shoah survivor interviews from http://voices.iit.edu/ using XPath
 
 '''
 # To time the script
@@ -13,7 +12,6 @@ startTime = datetime.now()
 import os, glob, re
 from lxml import html
 import requests
-import urllib.request
 
 #--------------------------
 
